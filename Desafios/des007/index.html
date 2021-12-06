@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../des002/imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Trabalhando com imagens flexíveis apenas com HTML</h1>
+    <p>As imagens carregaram em formatos diferentes para se adaptar ao tamanho da tela do navegador</p>
+
+    <picture>
+        <source media="(max-width: 795px)" srcset="imagens/capa_original-320.jpg" type="image/jpeg">
+        <source media="(max-width: 1024px)" srcset="imagens/capa_original-768.jpg" type="image/jpeg">
+       <img src="imagens/capa_original-1000.jpg" alt="">
+    </picture>
+
+</body>
+</html>

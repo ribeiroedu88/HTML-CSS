@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../Desafios/des002/imagens/favicon.ico" type="image/x-icon">
+    <title>Midias HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinânicas</h1>
+    <p>Redimenciona a tela do navegador e note que as imagens serão redimencionadas junto com a tela, para isso vamos utilizar a tag &lt;picture&gt;</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+
+    <h1>Reproduzindo audios em HTML</h1>
+    <p>Vamos aprender a inserir e reproduzir audio em uma página dosite</p>
+
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+</body>
+</html>
