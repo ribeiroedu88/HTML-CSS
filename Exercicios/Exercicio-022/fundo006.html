@@ -9,16 +9,25 @@
 
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* --- SHORTHAND - BACKGROUND
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+
+            background-size: cover; /* -- NÃO FUNCIONA NO SHORTHAND -- */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 2px solid darkblue;
@@ -31,6 +40,9 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit dicta officiis pariatur libero, in ratione veritatis ut harum nobis, nostrum est enim. Rerum aperiam in corrupti voluptatum obcaecati quod soluta?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint praesentium cupiditate voluptates, tenetur, blanditiis nesciunt commodi neque voluptate quod eligendi totam iusto rem dignissimos inventore amet sapiente cumque ut unde Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolor ea, perspiciatis reprehenderit nobis quam dolore accusantium illo odit, temporibus beatae autem tempora nesciunt tenetur perferendis debitis! Autem, aliquid obcaecati?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit dicta officiis pariatur libero, in ratione veritatis ut harum nobis, nostrum est enim. Rerum aperiam in corrupti voluptatum obcaecati quod soluta?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint praesentium cupiditate voluptates, tenetur, blanditiis nesciunt commodi neque voluptate quod eligendi totam iusto rem dignissimos inventore amet sapiente cumque ut unde Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolor ea, perspiciatis reprehenderit nobis quam dolore accusantium illo odit, temporibus beatae autem tempora nesciunt tenetur perferendis debitis! Autem, aliquid obcaecati?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit dicta officiis pariatur libero, in ratione veritatis ut harum nobis, nostrum est enim. Rerum aperiam in corrupti voluptatum obcaecati quod soluta?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint praesentium cupiditate voluptates, tenetur, blanditiis nesciunt commodi neque voluptate quod eligendi totam iusto rem dignissimos inventore amet sapiente cumque ut unde Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolor ea, perspiciatis reprehenderit nobis quam dolore accusantium illo odit, temporibus beatae autem tempora nesciunt tenetur perferendis debitis! Autem, aliquid obcaecati?</p>
+
     </main>
 </body>
 </html>
