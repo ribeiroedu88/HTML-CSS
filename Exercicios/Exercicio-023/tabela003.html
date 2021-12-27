@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 03</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+
+    <table>
+        <caption>Tabela base</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table>
+        <caption>Tabela celula <strong>B</strong> 2 colunas</caption>
+        <tr>
+            <td>A</td>
+            <td colspan="2" style="background-color: yellow;">B</td>
+            
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table>
+        <caption>Tabela celula <strong>D</strong> 3 linhas</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="background-color: #ec9a1e;">D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table>
+        <caption>Tabela celula <strong>F</strong> 2 linhas</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td rowspan="2" style="background-color: yellowgreen;">F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table>
+        <caption>Tabela celula <strong>K</strong> 2 colunas</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td colspan="2" style="background-color: #ec4937;">K</td>
+             
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table>
+        <caption>Tabela juntas</caption>
+        <tr>
+            <td>A</td>
+            <td colspan="2" style="background-color: yellow;">B</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="3" style="background-color: #ec9a1e;">D</td> 
+            <td>E</td>
+            <td rowspan="2" style="background-color: yellowgreen;">F</td>
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            
+            <td colspan="2" style="background-color: #ec4937;">K</td>
+           
+        </tr>
+    </table>
+
+</body>
+</html>
