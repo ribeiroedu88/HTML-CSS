@@ -1,0 +1,266 @@
+@charset "UFT-8";
+
+:root {
+    --corbgy:#fee600;
+    --cortib:#0a00b4;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    font-size: .8em;
+    font-weight: bold;
+    line-height: 1.6em;
+    padding: 0;
+}
+
+hr {
+    width: 230px;
+    vertical-align: middle;
+}
+
+
+/***************************  BORDAS  ********************************/
+
+.bordas {
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+}
+
+.bordas-botton {
+    border-bottom: 1px solid green;
+}
+
+.tab-main {
+    position: relative;
+    width: 500px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.597);
+    padding: 0px;
+    margin: 0px;
+}
+
+.tab-hotel {
+    width: 265px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+.bate-volta {
+    padding-left: 10px;
+    color: var(--cortib);
+    font-size: 2.3em;
+    line-height: .9em;
+    margin: 0px 0px 15px 0px;
+}
+
+.bate-descricao {
+    padding-left: 10px;
+    font-size: 1.2em;
+    font-style: italic;
+    color: var(--cortib);
+    margin: 0px;
+}
+
+.tome {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 0px 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.aproveite {
+    font-size: 1em;
+    text-align: center;
+}
+
+.confira {
+    font-size: .8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: var(--corbgy);
+    border-radius: 10px;
+    color: black;
+}
+
+.foto-hotel {
+    width: 100%;
+    object-fit: cover;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.hotel-link {
+    font-size: .7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    background-color: var(--corbgy);
+    border-radius: 7px;
+    color: black;
+    margin-left: 20px;
+}
+
+.nome-hotel {
+    font-size: 1.3em;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.cidade-hotel {
+    font-size: 1em;
+    font-style: italic;
+    color: grey;
+    padding-left: 20px;
+}
+
+.pacote {
+    font-size: .8em;
+    padding-left: 20px;
+}
+
+.preco {
+    font-size: 1.8em;
+    text-align: right;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.vezes {
+    font-size: .8em;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.aluguel-titulo {
+    font-size: 1.5em;
+    color: var(--corbgy);
+    background-color: var(--cortib);
+    border-radius: 0px 30px 0px 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+.aluguel-descricao {
+    font-size: 1rem;
+    color: white;
+    background-color: var(--cortib);
+    margin-top: -30px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.foto-mala {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.cartao-titulo {
+    font-size: 1.5rem;
+    color: var(--cortib);
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.cartao-descricao {
+    font-size: 1rem;
+    color: var(--cortib);
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.peca {
+    font-size: .9em;
+    color: var(--cortib);
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.foto-cartao {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 0px 0px 30px;
+}
+
+.insta {
+    width: 30%;
+    padding: 10px;
+}
+
+.linkedin {
+    width: 30%;
+    padding: 10px;
+}
+
+.what {
+    width: 30%;
+    padding: 10px;
+}
+
+.sac {
+    font-size: .9em;
+    text-align: center;
+}
+
+.cvc {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.site {
+    width:40%;
+    padding-right: 20px;
+}
+
+.loja {
+    width: 40%;
+    padding-right: 20px;
+}
+
+.sac-icon {
+    width: 40%;
+    padding-right: 20px;
+}
+
+.txt-cliente {
+    font-size: .7em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 10px;
+}
+.foot {
+    background-color: var(--corbgy);
+}
+
+.txt-foot {
+    font-size: .9em;
+    text-align: center;
+    line-height: 1.3em;
+    color: var(--cortib);
+    padding: 0px 15px;
+}
