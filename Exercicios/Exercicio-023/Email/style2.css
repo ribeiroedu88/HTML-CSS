@@ -62,27 +62,27 @@ hr {
 }
 
 .bate-volta {
-    padding-left: 10px;
+    padding-left: 20px;
     color: var(--cortib);
     font-size: 2.3em;
     line-height: .9em;
-    margin: 0px 0px 15px 0px;
+    margin: 20px 0px 15px 0px;
 }
 
 .bate-descricao {
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 1.2em;
     font-style: italic;
     color: var(--cortib);
-    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .tome {
-    width: 100%;
-    height: 100%;
+    background-image: url(imagens/STL_047.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 0px 0px 0px 30px;
-    padding: 0px;
-    margin: 0px;
 }
 
 .aproveite {
@@ -100,11 +100,35 @@ hr {
     color: black;
 }
 
-.foto-hotel {
-    width: 100%;
-    object-fit: cover;
-    padding: 0px;
-    margin: 0px;
+#hotel-1 {
+    background-image: url(imagens/hotel001.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#hotel-2 {
+    background-image: url(imagens/hotel002.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#hotel-3 {
+    background-image: url(imagens/hotel003.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#hotel-4 {
+    background-image: url(imagens/hotel004.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 30px 30px 0px 0px;
 }
 
@@ -150,59 +174,59 @@ hr {
     padding-left: 20px;
 }
 
+#mala {
+    background-image: url(imagens/mala.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
 .aluguel-titulo {
     font-size: 1.5em;
     color: var(--corbgy);
-    background-color: var(--cortib);
+    background: var(--cortib);
     border-radius: 0px 30px 0px 0px;
+    width: 230px;
     padding-left: 20px;
     padding-top: 20px;
-    padding-bottom: 50px;
-    margin-bottom: 0px;
+    padding-bottom: 40px;
 }
 
 .aluguel-descricao {
     font-size: 1rem;
     color: white;
     background-color: var(--cortib);
+    width: 230px;
     margin-top: -30px;
     margin-bottom: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 20px;
-}
-
-.foto-mala {
-    width: 300px;
-    height: auto;
-    object-fit: cover;
 }
 
 .cartao-titulo {
     font-size: 1.5rem;
     color: var(--cortib);
-    margin: 0px;
     padding-left: 20px;
 }
 
 .cartao-descricao {
     font-size: 1rem;
     color: var(--cortib);
-    margin: 0px;
     padding-left: 20px;
 }
 
 .peca {
     font-size: .9em;
     color: var(--cortib);
-    margin: 0px;
     padding-top: 10px;
     padding-left: 20px;
 }
 
-.foto-cartao {
-    width: 300px;
-    height: auto;
-    object-fit: cover;
+#cartao {
+    background-image: url(imagens/cartao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 0px 0px 0px 30px;
 }
 
