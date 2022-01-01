@@ -10,7 +10,7 @@ body {
 }
 
 table {
-    border-collapse: collapse
+    border-collapse: collapse;
 }
 
 a {
@@ -47,7 +47,7 @@ hr {
     background-color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.597);
     padding: 0px;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 .tab-hotel {
