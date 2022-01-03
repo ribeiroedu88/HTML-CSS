@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela5 gruposcol/rowscol</title>
+</head>
+<style>
+
+    body {
+        font-family: sans-serif;
+    }
+
+    div {
+        overflow: auto;
+    }
+
+    caption {
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 900px;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    th {
+        font-size: 14px;
+        background-color: grey;
+        padding: 5px;
+    }
+
+    tr, th, td {
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    tr:nth-child(even) { /* even ou 2n*/
+            background-color: lightgray;
+    }
+
+    #cnome {
+        text-align: left;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+</style>
+
+<body>
+    <h1>Tabela 06</h1>
+    <div>
+        <table>
+
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprof">
+            </colgroup>
+
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Civil</th>
+                <th scope="col">Cidade</th>
+                <th scope="col">UF</th>
+                <th scope="col">Celular</th>
+                <th scope="col">email</th>
+            </tr>
+            <tr>
+                <td id="cnome">Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+                <td>Solteira</td>
+                <td>São Paulo</td>
+                <td>SP</td>
+                <td>9XXXX-XXXX</td>
+                <td>maria@hotmail.com</td>
+            </tr>
+            <tr>
+                <td id="cnome">Cláudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+                <td>Casado</td>
+                <td>Belo Horizonte</td>
+                <td>MG</td>
+                <td>9XXXX-XXXX</td>
+                <td>claudio@hotmail.com</td>
+            </tr>
+            <tr>
+                <td id="cnome">Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+                <td>Casado</td>
+                <td>Rio de Janeiro</td>
+                <td>RJ</td>
+                <td>9XXXX-XXXX</td>
+                <td>gustavo@hotmail.com</td>
+            </tr>
+            <tr>
+                <td id="cnome">Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+                <td>Solteiro</td>
+                <td>São Paulo</td>
+                <td>SP</td>
+                <td>9XXXX-XXXX</td>
+                <td>helio@hotmail.com</td>
+            </tr>
+            <tr>
+                <td id="cnome">Maria</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Médica</td>
+                <td>Divorciada</td>
+                <td>Fortaleza</td>
+                <td>CE</td>
+                <td>9XXXX-XXXX</td>
+                <td>maria_b@hotmail.com</td>
+            </tr>
+            <tr>
+                <td id="cnome">Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+                <td>Solteiro</td>
+                <td>São Paulo</td>
+                <td>SP</td>
+                <td>9XXXX-XXXX</td>
+                <td>otavioa@hotmail.com</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
